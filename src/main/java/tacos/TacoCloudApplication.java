@@ -5,7 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import tacos.Ingredient.Type;
+import tacos.models.Ingredient;
+import tacos.models.Ingredient.Type;
 import tacos.data.IngredientRepository;
 
 @SpringBootApplication
